@@ -1,0 +1,20 @@
+### Health
+GET http://127.0.0.1:4000/health
+
+### Dogs (mock or real)
+GET http://127.0.0.1:4000/api/dogs?location=60601&distance=50&limit=3
+
+### Orgs
+GET http://127.0.0.1:4000/api/organizations?location=60601
+
+### Favorites add
+POST http://127.0.0.1:4000/api/favorites
+Content-Type: application/json
+
+{ "animalId": "abc123" }
+
+### Favorites list
+GET http://127.0.0.1:4000/api/favorites
+
+### Favorites delete
+DELETE http://127.0.0.1:4000/api/favorites/abc123
