@@ -24,5 +24,8 @@ A small, production-minded REST API that searches adoptable dogs via Petfinder, 
 
 ---
 
-## Architecture & Folder Layout
+Install commands
+npm ci   # or npm install
+npm test
+npm run dev
 
